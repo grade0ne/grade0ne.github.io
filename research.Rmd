@@ -1,13 +1,5 @@
 ---
 title: "Research"
-description: |
-  A list of past and current research interests.
-author:
-  - name: Alex Mendelson 
-    url: https://www.alexmendelson.com/
-    affiliation: CSUN Evolutionary Ecology Lab
-    affiliation_url: https://www.ecoevolab.com/
-date: "`r Sys.Date()`"
 output: distill::distill_article
 ---
 
@@ -15,15 +7,16 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r research, include=TRUE}
+General interests
 
-Test
+## Current project
 
+Evolution-mediated indirect effects of temperature on interspecific competition in pitcher plant rotifers
 
+## Previous projects
 
+Settlement substrate preference in the larvae of an invasive marine serpulid
 
-```
+Resource availability driven phenotypic plasticity in echinoderm larvae
 
-test
-
-# Test
+Invertebrate larvae culture auto-feeding system using bioflourescence
