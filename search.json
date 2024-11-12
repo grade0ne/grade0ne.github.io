@@ -2,11 +2,10 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "About me",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-10-25T15:03:40-07:00"
+      "contents": "\r\nTo those who shaped me as a scientist\r\nI’m very fortunate to have had many role models shape the way I view the world around me. My appreciation for biology largely stems from my dad’s freshwater aquariums. He was my first ecology teacher, but also an important model of self study. With no (completed) college degree and no background in biology, he taught himself how to make beautifully self-sufficient aquascapes.\r\nBuilding on my dad’s at-home lessons in ecology, family friends also played a crucial role in my love of life science, and beyond. I grew up tagging along on camping trips to the high Mojave with our neighbors: a field biologist and a professor of biology. Hunting for fossils (with questionable legality) exposed me to geology and paleontology. Flattening pennies on the train tracks near our usual campsite (with unquestionable illegality) brought light to a general interest in physics. Around this time, I had a stint as a model rocketeer. This in combination with gifts of remote controlled robots from my granddad transformed me into a prospective engineer and fervent space nerd. The first (and only) club I joined in high school was the robotics club, and for a time mechanical engineering was my chosen path.\r\n\r\n\r\n\r\n",
+      "last_modified": "2024-11-12T10:33:55-08:00"
     },
     {
       "path": "index.html",
@@ -14,6 +13,14 @@
       "author": [],
       "contents": "\r\nHello and welcome!\r\n\r\n\r\n\r\n",
       "last_modified": "2024-11-12T09:49:16-08:00"
+    },
+    {
+      "path": "Methods-Update.html",
+      "title": "Project Update",
+      "description": "Nov 2024\n",
+      "author": [],
+      "contents": "\r\n1. Stock Cultures\r\n2. Rotifer Traits\r\n3. Imaging\r\n4. Diversity Experiment\r\nStock Cultures\r\nI’ve started 33 new stock cultures using the rotifers I isolated in October. I also refreshed the existing stock cultures (50% water change, new sterile wheat seed, new foam stopper). I’ll hold onto the original stock cultures until I’m sure the refreshed ones are healthy.\r\n\r\n\r\n\r\n\r\n\r\nNumber of clones\r\n\r\n\r\n\r\nSite\r\n\r\n\r\nLeaf\r\n\r\n\r\nCurrent\r\n\r\n\r\nProjected\r\n\r\n\r\nCrystal\r\n\r\n\r\n1\r\n\r\n\r\n3\r\n\r\n\r\n6\r\n\r\n\r\n2\r\n\r\n\r\n5\r\n\r\n\r\n7\r\n\r\n\r\n3\r\n\r\n\r\n1\r\n\r\n\r\n1\r\n\r\n\r\n4\r\n\r\n\r\n3\r\n\r\n\r\n7\r\n\r\n\r\n5\r\n\r\n\r\n4\r\n\r\n\r\n4\r\n\r\n\r\n6\r\n\r\n\r\n0\r\n\r\n\r\n8\r\n\r\n\r\n7\r\n\r\n\r\n0\r\n\r\n\r\n4\r\n\r\n\r\nPleaphase\r\n\r\n\r\n1\r\n\r\n\r\n3\r\n\r\n\r\n4\r\n\r\n\r\n2\r\n\r\n\r\n5\r\n\r\n\r\n6\r\n\r\n\r\n3\r\n\r\n\r\n3\r\n\r\n\r\n4\r\n\r\n\r\n4\r\n\r\n\r\n3\r\n\r\n\r\n3\r\n\r\n\r\n5\r\n\r\n\r\n3\r\n\r\n\r\n3\r\n\r\n\r\n6\r\n\r\n\r\n0\r\n\r\n\r\n7\r\n\r\n\r\nAfter this second round of isolations, I’m still not reaching the goal of 5 clones per leaf. This week I’m deciding whether I should isolate a 3rd time.\r\nRotifer Traits\r\ni. Population growth rate\r\nDirect census of population on the first and last day of the experiment. Population growth calculated as (ln Nt − ln N0) / t .\r\nii. Embryonic development time (EDT)\r\nGravid rotifers haphazardly selected from each clone will be placed in 96-well plates with a small volume of media. Each well will be seeded with bacteria from the same source culture. Wells will be covered with microscope cover slips to minimize evaporation. 24-48 hours of time-lapse imaging every 30 minutes will be scored for egg laying and hatching.\r\n(Specifics of imaging still need to be worked out… currently only have the capability to observe 9 wells at a time.)\r\niii. Rotifer size and egg size\r\nAt the end of the experiment, each well will be fixed using Lugol’s iodine solution and imaged at a high resolution. The image of each well will then be passed through an automated pipeline in ImageJ that (1) makes the image binary, (2) identifies, crops, and saves individual “particles”, and (3) generates particle morphometrics. Each image will then need to be manually categorized as rotifer or egg.\r\niv. Respiration rate\r\nRate of oxygen consumption will be measured over the course of 6 hours at ambient and stressful temperature. The number of individuals from each clone needed to get a clear signal from the respiration plate still requires some testing.\r\n\r\n\r\n\r\n",
+      "last_modified": "2024-11-12T12:08:13-08:00"
     },
     {
       "path": "research.html",

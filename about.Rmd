@@ -1,10 +1,15 @@
 ---
-title: "About this site"
+title: "About me"
 description: |
-  Some additional details about the website
+  
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## To those who shaped me as a scientist
+
+I'm very fortunate to have had *many* role models shape the way I view the world around me. My appreciation for biology largely stems from my dad's freshwater aquariums. He was my first ecology teacher, but also an important model of self study. With no (completed) college degree and no background in biology, he taught himself how to make beautifully self-sufficient aquascapes.
+
+Building on my dad's at-home lessons in ecology, family friends also played a crucial role in my love of life science, and beyond. I grew up tagging along on camping trips to the high Mojave with our neighbors: a field biologist and a professor of biology. Hunting for fossils (with questionable legality) exposed me to geology and paleontology. Flattening pennies on the train tracks near our usual campsite (with unquestionable illegality) brought light to a general interest in physics. Around this time, I had a stint as a model rocketeer. This in combination with gifts of remote controlled robots from my granddad transformed me into a prospective engineer and fervent space nerd. The first (and only) club I joined in high school was the robotics club, and for a time mechanical engineering was my chosen path.

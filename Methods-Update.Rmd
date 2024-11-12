@@ -1,0 +1,65 @@
+---
+title: "Project Update"
+description: |
+  Nov 2024
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### 1. Stock Cultures
+### 2. Rotifer Traits
+### 3. Imaging
+### 4. Diversity Experiment
+
+## Stock Cultures
+
+I've started 33 new stock cultures using the rotifers I isolated in October. I also refreshed the existing stock cultures (50% water change, new sterile wheat seed, new foam stopper). I'll hold onto the original stock cultures until I'm sure the refreshed ones are healthy.
+
+```{r stocks, include=TRUE, echo=FALSE}
+library(tibble)
+library(knitr)
+library(kableExtra)
+
+stocks <- tibble(
+  Site = c("Crystal","Crystal","Crystal","Crystal","Crystal","Crystal","Crystal",
+           "Pleaphase","Pleaphase","Pleaphase","Pleaphase","Pleaphase","Pleaphase"),
+  Leaf = c(1,2,3,4,5,6,7,
+           1,2,3,4,5,6),
+  Current = c(3,5,1,3,4,0,0,
+              3,5,3,3,3,0),
+  Projected = c(6,7,1,7,4,8,4,
+                4,6,4,3,3,7)
+)
+
+stocks %>%
+  kbl(col.names = c("Site", "Leaf", "Current", "Projected")) %>%
+  add_header_above(c(" " = 2, "Number of clones" = 2)) %>%
+  kable_paper(full_width = FALSE) %>%
+  collapse_rows(columns = 1, valign = "top")
+
+```
+
+After this second round of isolations, I'm still not reaching the goal of 5 clones per leaf. This week I'm deciding whether I should isolate a 3rd time.
+
+## Rotifer Traits
+
+#### i. Population growth rate
+
+Direct census of population on the first and last day of the experiment. Population growth calculated as (*ln* Nt − *ln* N0) / t .
+
+#### ii. Embryonic development time (EDT)
+
+Gravid rotifers haphazardly selected from each clone will be placed in 96-well plates with a small volume of media. Each well will be seeded with bacteria from the same source culture. Wells will be covered with microscope cover slips to minimize evaporation. 24-48 hours of time-lapse imaging every 30 minutes will be scored for egg laying and hatching. 
+
+(Specifics of imaging still need to be worked out... currently only have the capability to observe 9 wells at a time.)
+
+#### iii. Rotifer size and egg size
+
+At the end of the experiment, each well will be fixed using Lugol's iodine solution and imaged at a high resolution. The image of each well will then be passed through an automated pipeline in ImageJ that (1) makes the image binary, (2) identifies, crops, and saves individual "particles", and (3) generates particle morphometrics. Each image will then need to be manually categorized as rotifer or egg.
+
+#### iv. Respiration rate
+
+Rate of oxygen consumption will be measured over the course of 6 hours at ambient and stressful temperature. The number of individuals from each clone needed to get a clear signal from the respiration plate still requires some testing.
