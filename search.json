@@ -10,11 +10,10 @@
     },
     {
       "path": "index.html",
-      "title": "",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Alex Mendelson",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2024-10-25T15:03:42-07:00"
+      "contents": "\r\nHello and welcome!\r\n\r\n\r\n\r\n",
+      "last_modified": "2024-11-12T09:49:16-08:00"
     },
     {
       "path": "research.html",
