@@ -1,8 +1,8 @@
 name: "website"
-title: "My Website"
+title: "Alex Mendelson"
 theme: theme.css
 description: |
-  My Website
+  Alex Mendelson
 output_dir: "."
 navbar:
   right:
