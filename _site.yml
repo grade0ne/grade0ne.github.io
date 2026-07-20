@@ -1,5 +1,6 @@
 name: "website"
 title: "My Website"
+theme: theme.css
 description: |
   My Website
 output_dir: "."

@@ -1,18 +1,37 @@
 ---
-title: "My Website"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Alex Mendelson, MSc"
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
 ```
 
+## Present
+
+At California State University, Northridge, I am working towards completing my MS in biology. Over the last three years, I have enjoyed the privilege of teaching intro bio lab courses to 20 sections of undergrad biology majors (\~500 students) as a Teaching Associate. In parallel to my role as an educator, I have nearly finished my thesis research project investigating the indirect effects of climate change on the ecology of natural communities, and how species adapt to rapid changes in their environment. You can read more about this project, and some of the undergraduate projects that it has spun up here.
+
+## Past
+
+### Wetland Ecology Internships
+
+#### Tidal Influence
+
+TI is a small ecological consulting company headquartered in Long Beach, CA. From fall 2022 to summer 2023, I completed an restoration internship with their team. Much of my time at TI was spent at Zedler Marsh, near the mouth of the San Gabriel river on the border of Long Beach and Seal Beach, part of the Los Cerritos Wetlands complex.
+
+At Zedler, myself and the other interns in my cohort helped to manage a native plant grow space, and carried out a number of stewardship tasks in the lower marsh and upland CSS habitat (including spacing and planting new natives, removal of non-natives, maintaining public trails, and repairing irrigation drip lines and sprinklers). Additionally, we monitored river and marsh water qualtiy using a multi instrument probe, and performed monthly surveys counting Belding's Savannah Sparrows around Zedler marsh and the neighboring Steamshovel Slough. I also participated in TI's education program, where K-12 students would visit Zedler Marsh and learn about the ecological importance of coastal we
+
+Later, I observed the biological monitoring of a major construction project at the Colorado Lagoon (Long Beach) during a dredging operation. I also joined the TI team for one trip to the Carpinteria salt marsh to assist with an ongoing restoration project to remove *Limonium duriusculum* (European sea lavender) using [soil solarization](https://en.wikipedia.org/wiki/Soil_solarization) and propane torches.
+
+
+#### Bolsa Chica Conservancy
+
+Bolsa Chica Ecological Reserve is a 1,300 acre protected coastal salt marsh that is open to the public, and it was where I felt most at home from 2022 until I started grad school in 2023. As a restoration/education intern, I had the opportunity to cross train with staff members from both branches of the conservancy.
+
+*Restoration* — Working directly with the restoration coordinator, I routinely surveyed the vegetation of low, mid, and high salt marsh habitats as well as dense coastal sage scrub communities. We mainly employed point-transect methods for community assessment, but also expanded to other methods including patch mapping *Spartina* (cordgrass) using handheld GPS and entire population census of the endangered *Centromadia parryi* ssp. *australis* (Southern Tarplant, CRPR-1B). Since Bolsa Chica is essential habitat to over 320 species of birds (some endemic, many migratory), I had many opportunities to get involved with some rare and endangered birds. This included the restoration nesting habitat for the endangered California Least Tern and threatened Western Snowy Plover as part of the Conservancy's [Eyes On Nest Sites program](https://bolsachica.org/eons/). Additionally, I helped maintain trail cameras posted to [artificial nesting rafts designed to attract the endangered Light-Footed Ridgway’s Rail (*Rallus obsoletus*)](https://bolsachica.org/rabbit-island/). Together with another intern, we reviewed footage from the cameras for evidence of the Rails using the nest rafts.
+
+*Education* — The Conservancy hosts K-college school groups almost daily, offering activities in their interpretive center and guided tours of the Reserve. As an education intern, I was one of the main docents for these guided tours. Every docent was given freedom to design their talking points to best meet their own expertise, and I focused on integrating the incredibly important ecological function of coastal wetlands with their intrinsic and financial benefits to humans. During the summer of 2022, I helped lead the Summer Curiosity Camp, a day camp for 1-4th graders focusing on the importance of natural spaces.
+
+### Altadena Tree Canopy Research Project
+
+Lead by U.S. Forest Service
