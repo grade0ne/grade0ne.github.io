@@ -1,8 +1,8 @@
 :root {
-  --bg:     #1c1c1e;   /* dark grey, nearly black */
-  --text:   #e8e6e1;   /* warm off-white */
-  --muted:  #9a978f;   /* dimmer text for captions, dates */
-  --rule:   #34343a;   /* borders and dividers */
+  --bg:     #1c1c1e;
+  --text:   #e8e6e1;
+  --muted:  #9a978f;
+  --rule:   #34343a;
   --link:   #c9c2b6;
 }
 
