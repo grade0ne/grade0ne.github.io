@@ -1,90 +1,65 @@
-
-/* base variables */
-
-/* Edit the CSS properties in this file to create a custom
-   Distill theme. Only edit values in the right column
-   for each row; values shown are the CSS defaults.
-   To return any property to the default,
-   you may set its value to: unset
-   All rows must end with a semi-colon.                      */
-
-/* Optional: embed custom fonts here with `@import`          */
-/* This must remain at the top of this file.                 */
-
-
-
-html {
-  /*-- Main font sizes --*/
-  --title-size:      20px;
-  --body-size:       1.06rem;
-  --code-size:       14px;
-  --aside-size:      12px;
-  --fig-cap-size:    13px;
-  /*-- Main font colors --*/
-  --title-color:     lightgray;
-  --header-color:    lightgray;
-  --body-color:      lightgray;
-  --aside-color:     lightgray;
-  --fig-cap-color:   lightgray;
-  /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    sans-serif;
-  --mono-font:       monospace;
-  --body-font:       sans-serif;
-  --navbar-font:     sans-serif;  /* websites + blogs only */
+:root {
+  --bg:     #1c1c1e;   /* dark grey, nearly black */
+  --text:   #e8e6e1;   /* warm off-white */
+  --muted:  #9a978f;   /* dimmer text for captions, dates */
+  --rule:   #34343a;   /* borders and dividers */
+  --link:   #c9c2b6;
 }
 
-/*-- ARTICLE METADATA --*/
-d-byline {
-  --heading-size:    0.6rem;
-  --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       0.8rem;
-  --body-color:      rgba(0, 0, 0, 0.8);
+* { box-sizing: border-box; }
+
+header {
+  max-width: 46rem;
+  margin: 0 auto 3rem;
 }
 
-/*-- ARTICLE TABLE OF CONTENTS --*/
-.d-contents {
-  --heading-size:    18px;
-  --contents-size:   13px;
+body {
+  margin: 0;
+  padding: 4rem 1.5rem;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Source Serif 4", "Charter", "Iowan Old Style", Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
 }
 
-/*-- ARTICLE APPENDIX --*/
-d-appendix {
-  --heading-size:    15px;
-  --heading-color:   rgba(0, 0, 0, 0.65);
-  --text-size:       0.8em;
-  --text-color:      rgba(0, 0, 0, 0.5);
+main { max-width: 46rem; margin: 0 auto; }
+
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 600;
+  margin: 2.5rem 0 1rem;
+}
+h1 { font-size: 2.5rem; margin-top: 0; letter-spacing: -0.02em; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.25rem; }
+
+p, ul, ol { margin: 0 0 1.4rem; }
+
+a { color: var(--link); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: #fff; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+
+small, .muted { color: var(--muted); font-size: 0.95rem; }
+
+hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0; }
+
+blockquote {
+  margin: 2rem 0;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--rule);
+  color: var(--muted);
+  font-style: italic;
 }
 
-/*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
-
-.distill-site-header {
-  --title-size:       18px;
-  --text-color:       grey;
-  --text-size:        15px;
-  --hover-color:      black;
-  --bkgd-color:       white;
+code, pre {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  background: #26262a;
+  border-radius: 4px;
 }
+code { padding: 0.15em 0.4em; }
+pre { padding: 1rem; overflow-x: auto; }
 
-.distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
-}
-
-/*-- Additional custom styles --*/
-/* Add any additional CSS rules below                      */
-
-.two-col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  align-items: start;
-}
-
-@media (max-width: 768px) {
-  .two-col {
-    grid-template-columns: 1fr;
-  }
-}
+::selection { background: #3d3d45; }
